@@ -1,0 +1,29 @@
+.DetailEmployeeController {
+    background-color: white;
+    padding: 40px;
+    .infoDetail {
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    .showingSearch {
+        height: max-content;
+        border: 1px solid rgba(0, 0, 0, 0.344);
+        border-radius: '5px';
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        .Details{
+            margin: 0px 50px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 40px;
+            row-gap: 15px; 
+        }
+    }
+}

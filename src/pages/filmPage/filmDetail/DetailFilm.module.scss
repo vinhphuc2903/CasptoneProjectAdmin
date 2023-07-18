@@ -1,0 +1,98 @@
+.FilmPage {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,  #1f1e1f, #b2750b);
+    display: flex;
+    justify-content: center;
+  
+    .headerContent{
+      width: 80%;
+      background-color: #c6ddef00; 
+    }
+    :global {
+  
+      //custum tab mui
+      .custom-tabpanel {
+        padding: 0;
+        // margin-bottom: 50px;
+      }
+  
+      .custom-box {
+        border-bottom: 1px solid #d8d7d7;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: #decbab;
+        display: flex;
+        justify-content: center;
+        .box-content {
+          padding: 0px 20px;
+          position: relative;
+          bottom: -1px;
+  
+          .tab-list {
+            background-color: #b2750b;
+            .tab-list-item {
+              color: black;
+              font-weight: 400;
+              padding: 12px 10px;
+              text-transform: none;
+              position: relative;
+              border-bottom: 1px solid #d8d7d7;
+              line-height: 20px;
+              font-size: 14px;
+              text-align: center;
+              letter-spacing: 0.01em;
+              gap: 10px;
+              font-style: normal;
+            }
+  
+            .Mui-selected {
+              color: black;
+              font-weight: 600;
+              background-color: #DEF8E2;
+              border-left: 1px solid #d8d7d7;
+              border-right: 1px solid #d8d7d7;
+              border-bottom: 1px solid transparent;
+              letter-spacing: 0.012em;
+            }
+  
+            .MuiTabs-indicator {
+              background-color: #138300;
+              top: 0 !important;
+            }
+          }
+  
+          .tab-list1 {
+            .tab-list-item1 {
+              color: black;
+              font-weight: 400;
+              padding: 0px 20px;
+              position: relative;
+              text-transform: none;
+              font-style: normal;
+              letter-spacing: 0.01em;
+              gap: 10px;
+            }
+  
+            .Mui-selected {
+              color: black;
+              font-weight: 600;
+              border-bottom: 1px solid transparent;
+              letter-spacing: 0.012em;
+  
+            }
+  
+            .MuiTabs-indicator {
+              margin-block-start: auto;
+              background-color: #ffd500;
+              top: 0 !important;
+            }
+  
+            .MuiTabs-flexContainer {
+              border-bottom: 1px solid #d8d7d7;
+            }
+          }
+        }
+      }
+    }
+  }

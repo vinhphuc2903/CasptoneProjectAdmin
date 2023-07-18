@@ -1,0 +1,70 @@
+.uploadtImg{
+    width: 100%;
+    height: 100%;
+    .avatarIc{
+        // height: 170px;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px dashed #707070;
+        background-color: #F6F6F6;
+        .icUpload{
+          margin-top: 33px !important;
+        }
+        .titleUpload{
+        margin-top: 22.8px !important;
+        font-style: italic;
+        }
+    }
+    .imageItem{
+      text-align: -webkit-center;
+      position: relative;
+      height: 100%;
+      width: 100%;
+      .imageItemDelete{
+        position: absolute;
+        background-color: 'red';
+        top: 0;
+        right: 25px;
+        width:  0;
+        cursor: pointer;
+        background-color: yellow;
+        padding: 0 0 0 0;
+      }
+    }
+}
+//identification upload
+.uploadtImgUpload{
+  width: 100%;
+  height: 140px;
+  .avatarIc{
+      height: 140px;
+      text-align: center;
+      border-radius: 5px;
+      border: 1px dashed #707070;
+      background-color: #F6F6F6;
+      .icUpload{
+        margin-top: 32.8px !important;
+      }
+      .titleUploadIdentification{
+      margin-top: 22.8px !important;
+      font-style: italic;
+      }
+  }
+  .imageItemUpload{
+    text-align: -webkit-center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    .imageItemDelete{
+      position: absolute;
+      background-color: 'red';
+      top: 0;
+      right: 25px;
+      width:  0;
+      cursor: pointer;
+      background-color: yellow;
+      padding: 0 0 0 0;
+    }
+  }
+}
